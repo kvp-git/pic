@@ -20,8 +20,8 @@
 #define KEY_TRACK   (8)
 #define KEY_BUTTON (16)
 
-#define RED_DELAY_COUNT (120) // 120 = 60 seconds, 240 = 120 seconds
-#define LONGPRESS_COUNT   (6) // 3 seconds
+#define RED_DELAY_COUNT  (60) // 60 = 30 seconds, 120 = 60 seconds, 240 = 120 seconds
+#define LONGPRESS_COUNT   (5) // 2.5 seconds
 
 uint8_t state;
 uint8_t phase;
